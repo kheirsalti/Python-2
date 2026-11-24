@@ -1,0 +1,7 @@
+name = input ("Dein Name :")
+print("Name : " + name.strip())
+print("Bereinigter Name : " + name.lower())
+print("BentzerName : " , name.lower().replace(" ", "."))
+print("läng : " , len(name))
+print("Erste zeischen : " , name[0])
+print("Lelzte zeischen : " , name[-1])
